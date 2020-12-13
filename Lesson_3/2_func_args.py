@@ -36,6 +36,8 @@ def print_person_info(name, surname, age=None):
 
 
 print_person_info('Anna', 'Smith', 18)
+
+
 ##########################################
 # ЕСЛИ НЕ ЗНАЕМ СКОЛЬКО БУДЕТ АГРУМЕНТОВ #
 #             ПОЗИЦИОННЫЕ                #
@@ -62,7 +64,9 @@ def print_vals(*args):
 print_vals(1, 2, 3, 66, 77, 100)
 
 
+##########################################
 #             ИМЕНОВАННЫЕ                #
+##########################################
 def print_vals(**kwargs):
     for el in kwargs:
         print(el, end=' ')
