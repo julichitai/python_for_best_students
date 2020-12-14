@@ -1,0 +1,16 @@
+{
+  "model": "Classifier",
+  "version": 1.8,
+  "classes": [
+    "cat",
+    "dog",
+    "pigeon"
+  ],
+  "metrics": [
+    100,
+    89,
+    90,
+    67,
+    99
+  ]
+}
